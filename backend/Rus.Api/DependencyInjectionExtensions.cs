@@ -22,5 +22,7 @@ public static class DependencyInjectionExtensions
         );
 
     private static IServiceCollection AddAutoMapper(this IServiceCollection services) => services
-        .AddAutoMapper(typeof(Advertiser.Application.MappingProfile).Assembly);
+        .AddAutoMapper(
+            typeof(Advertiser.Application.MappingProfile).Assembly
+        );
 }
