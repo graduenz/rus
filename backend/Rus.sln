@@ -8,29 +8,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tag", "Tag", "{63F8EA72-1CB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Offer", "Offer", "{68A953E3-B7F3-48C6-BE9D-F1E59DBFCA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Domain", "Advertiser.Domain\Advertiser.Domain.csproj", "{F241233C-605A-4B62-BEB0-C6A9822C7DE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Domain", "src\Advertiser.Domain\Advertiser.Domain.csproj", "{F241233C-605A-4B62-BEB0-C6A9822C7DE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Application", "Advertiser.Application\Advertiser.Application.csproj", "{D8949096-AF5D-408F-B1C8-37050BCB70FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Application", "src\Advertiser.Application\Advertiser.Application.csproj", "{D8949096-AF5D-408F-B1C8-37050BCB70FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Domain", "Rus.Base.Domain\Rus.Base.Domain.csproj", "{2E6E7A76-75EB-4960-A7F9-F5E3DCABBB1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Domain", "src\Rus.Base.Domain\Rus.Base.Domain.csproj", "{2E6E7A76-75EB-4960-A7F9-F5E3DCABBB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Item.Domain", "Item.Domain\Item.Domain.csproj", "{042D248A-995A-472C-A8D0-10EA47F1A1FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Item.Domain", "src\Item.Domain\Item.Domain.csproj", "{042D248A-995A-472C-A8D0-10EA47F1A1FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offer.Domain", "Offer.Domain\Offer.Domain.csproj", "{7C69C424-7C7E-4A05-800B-549AEAAF02B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offer.Domain", "src\Offer.Domain\Offer.Domain.csproj", "{7C69C424-7C7E-4A05-800B-549AEAAF02B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tag.Domain", "Tag.Domain\Tag.Domain.csproj", "{5778EF78-3F8A-426B-9DEB-DE2513883147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tag.Domain", "src\Tag.Domain\Tag.Domain.csproj", "{5778EF78-3F8A-426B-9DEB-DE2513883147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Application", "Rus.Base.Application\Rus.Base.Application.csproj", "{735F272F-0B6F-4CAB-B9EA-71BD19AA25AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Application", "src\Rus.Base.Application\Rus.Base.Application.csproj", "{735F272F-0B6F-4CAB-B9EA-71BD19AA25AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Api", "Rus.Api\Rus.Api.csproj", "{E2B42803-3752-4B39-B2E1-118A2CDD8389}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Api", "src\Rus.Api\Rus.Api.csproj", "{E2B42803-3752-4B39-B2E1-118A2CDD8389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Infrastructure", "Rus.Base.Infrastructure\Rus.Base.Infrastructure.csproj", "{CFCEFDE1-FB14-4576-A6E4-0CABD8B2082A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Infrastructure", "src\Rus.Base.Infrastructure\Rus.Base.Infrastructure.csproj", "{CFCEFDE1-FB14-4576-A6E4-0CABD8B2082A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Infrastructure", "Advertiser.Infrastructure\Advertiser.Infrastructure.csproj", "{9DAA010A-18B8-436D-9089-6CF5A8019094}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Infrastructure", "src\Advertiser.Infrastructure\Advertiser.Infrastructure.csproj", "{9DAA010A-18B8-436D-9089-6CF5A8019094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Migrations", "Advertiser.Migrations\Advertiser.Migrations.csproj", "{317549D9-58A2-479C-AA5E-E8A5B0A2AA4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertiser.Migrations", "src\Advertiser.Migrations\Advertiser.Migrations.csproj", "{317549D9-58A2-479C-AA5E-E8A5B0A2AA4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Api", "Rus.Base.Api\Rus.Base.Api.csproj", "{3D054B18-CBA5-4195-B27F-9449DFB3886D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rus.Base.Api", "src\Rus.Base.Api\Rus.Base.Api.csproj", "{3D054B18-CBA5-4195-B27F-9449DFB3886D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

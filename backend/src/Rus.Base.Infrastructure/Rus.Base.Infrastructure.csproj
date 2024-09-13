@@ -10,4 +10,10 @@
       <ProjectReference Include="..\Rus.Base.Application\Rus.Base.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+            <HintPath>..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\9.0.0-preview.7.24406.2\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
 </Project>
