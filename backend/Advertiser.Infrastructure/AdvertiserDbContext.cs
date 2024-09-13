@@ -11,4 +11,10 @@ public class AdvertiserDbContext : DbContext, IBaseDbContext
     }
     
     public DbSet<Domain.Advertiser> Advertisers { get; set; }
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AdvertiserEntityConfiguration).Assembly);
+        base.OnModelCreating(modelBuilder);
+    }
 }
