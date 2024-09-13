@@ -17,4 +17,15 @@
       <ProjectReference Include="..\Rus.Base.Api\Rus.Base.Api.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\appsettings.Development.json">
+        <Link>appsettings.Development.json</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\appsettings.json">
+        <Link>appsettings.json</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
