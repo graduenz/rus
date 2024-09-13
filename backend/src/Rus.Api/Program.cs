@@ -3,6 +3,12 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .AddJsonFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "appsettings.json"))
+    .AddJsonFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+        $"appsettings.{builder.Environment.EnvironmentName}.json"), optional: true)
+    .AddEnvironmentVariables();
+
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
