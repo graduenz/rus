@@ -6,5 +6,5 @@ public interface ICurrentUserService
 {
     ClaimsPrincipal CurrentUser { get; }
 
-    string GetCurrentUserUniqueId();
+    string GetCurrentUserIdentifier();
 }

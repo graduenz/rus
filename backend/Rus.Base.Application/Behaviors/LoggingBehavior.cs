@@ -20,7 +20,7 @@ public class LoggingBehavior<TRequest> : IRequestPreProcessor<TRequest>
     {
         _logger.LogInformation("Request {RequestType} sent by user {UserId}",
             typeof(TRequest).Name,
-            _currentUserService.GetCurrentUserUniqueId());
+            _currentUserService.GetCurrentUserIdentifier());
         
         return Task.CompletedTask;
     }

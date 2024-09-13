@@ -33,7 +33,7 @@ public abstract class
 
     public async Task<ServiceResult<PaginatedList<TDto>>> Handle(TQuery request, CancellationToken cancellationToken)
     {
-        var userId = CurrentUserService.GetCurrentUserUniqueId();
+        var userId = CurrentUserService.GetCurrentUserIdentifier();
 
         var queryable = DbContext.Set<TEntity>()
             .AsNoTracking();

@@ -32,7 +32,7 @@ public class PerformanceBehavior<TRequest, TResponse> : IPipelineBehavior<TReque
             _logger.LogWarning(
                 "Request {RequestType} sent by user with Id {UserId} took {Duration}ms, longer than {ExpectedDuration}ms",
                 typeof(TRequest).Name,
-                _currentUserService.GetCurrentUserUniqueId(),
+                _currentUserService.GetCurrentUserIdentifier(),
                 timer.ElapsedMilliseconds,
                 _longRunningRequestDuration.TotalMilliseconds);
         }

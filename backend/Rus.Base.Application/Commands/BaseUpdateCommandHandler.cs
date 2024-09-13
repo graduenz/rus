@@ -27,7 +27,7 @@ public abstract class BaseUpdateCommandHandler<TCommand, TDto, TEntity> : IReque
 
     public async Task<ServiceResult<TDto>> Handle(TCommand request, CancellationToken cancellationToken)
     {
-        var userId = CurrentUserService.GetCurrentUserUniqueId();
+        var userId = CurrentUserService.GetCurrentUserIdentifier();
 
         // ReSharper disable once HeapView.BoxingAllocation
         var entity = await GetEntityAsync(request, userId, cancellationToken);

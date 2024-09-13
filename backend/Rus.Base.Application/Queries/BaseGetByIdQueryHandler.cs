@@ -27,7 +27,7 @@ public abstract class BaseGetByIdQueryHandler<TQuery, TDto, TEntity> : IRequestH
     
     public async Task<ServiceResult<TDto>> Handle(TQuery request, CancellationToken cancellationToken)
     {
-        var userId = CurrentUserService.GetCurrentUserUniqueId();
+        var userId = CurrentUserService.GetCurrentUserIdentifier();
         
         // ReSharper disable once HeapView.BoxingAllocation
         var entity = await GetEntityAsync(request, userId, cancellationToken);
