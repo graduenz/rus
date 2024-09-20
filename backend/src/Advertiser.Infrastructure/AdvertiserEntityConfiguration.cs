@@ -10,7 +10,7 @@ public class AdvertiserEntityConfiguration : BaseEntityTypeConfiguration<Domain.
         base.Configure(builder);
         
         builder.Property(m => m.Name).HasMaxLength(50).IsRequired();
-        builder.Property(m => m.Description).HasMaxLength(2000).IsRequired();
+        builder.Property(m => m.Description).HasMaxLength(2000);
         builder.Property(m => m.Email).HasMaxLength(320);
         builder.Property(m => m.Phone).HasMaxLength(20);
         builder.Property(m => m.ContactInstructions).HasMaxLength(200);
