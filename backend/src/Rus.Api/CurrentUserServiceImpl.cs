@@ -16,6 +16,10 @@ public class CurrentUserServiceImpl : ICurrentUserService
     
     public string GetCurrentUserIdentifier()
     {
+        // TODO: Remove this when introducing authn
+        #if DEBUG
+        return "debugging@rdnz.dev";
+        #endif
         var claim = CurrentUser.FindFirst("unique_name");
         return claim?.Value ?? throw new InvalidOperationException("Missing unique_name claim in token.");
     }
