@@ -1,4 +1,5 @@
 using Advertiser.Application;
+using Advertiser.Application.Advertiser;
 using Advertiser.Infrastructure;
 using FluentValidation;
 using MediatR;

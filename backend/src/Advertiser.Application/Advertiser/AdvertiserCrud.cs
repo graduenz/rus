@@ -3,7 +3,7 @@ using Rus.Base.Application.Commands;
 using Rus.Base.Application.Interfaces;
 using Rus.Base.Application.Queries;
 
-namespace Advertiser.Application;
+namespace Advertiser.Application.Advertiser;
 
 public class CreateAdvertiserCommand : BaseCreateCommand<AdvertiserDto>
 {

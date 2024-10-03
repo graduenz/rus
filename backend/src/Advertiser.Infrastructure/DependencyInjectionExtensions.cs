@@ -1,4 +1,5 @@
 ﻿using Advertiser.Application;
+using Advertiser.Application.Advertiser;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Advertiser.Application.Advertiser;
+using AutoMapper;
 
 namespace Advertiser.Application;
 
@@ -6,7 +7,7 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<Advertiser.Domain.Advertiser, AdvertiserDto>();
-        CreateMap<AdvertiserDto, Advertiser.Domain.Advertiser>();
+        CreateMap<Domain.Advertiser, AdvertiserDto>();
+        CreateMap<AdvertiserDto, Domain.Advertiser>();
     }
 }

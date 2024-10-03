@@ -1,6 +1,6 @@
 ﻿using Rus.Base.Application.Dto;
 
-namespace Advertiser.Application;
+namespace Advertiser.Application.Advertiser;
 
 public class AdvertiserDto : BaseDto
 {

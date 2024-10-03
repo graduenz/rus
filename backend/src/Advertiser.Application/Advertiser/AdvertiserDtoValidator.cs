@@ -1,7 +1,6 @@
 ﻿using FluentValidation;
-using FluentValidation.Validators;
 
-namespace Advertiser.Application;
+namespace Advertiser.Application.Advertiser;
 
 public class AdvertiserDtoValidator : AbstractValidator<AdvertiserDto>
 {
